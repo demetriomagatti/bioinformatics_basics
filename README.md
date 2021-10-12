@@ -8,10 +8,10 @@ Exercises from online tutorials and classes on bioinformatics. The scope of this
 
 ## Files and structure
 <ul>
-<li>
+<li> The repository is structured so that it can be installed as a package via pip install command;
 </ul>
 
 ## Notes on the project and on the jupyter notebook
 <ul>
-<li>
+<li> 
 </ul>
