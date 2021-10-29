@@ -3,7 +3,7 @@ Exercises from online tutorials and classes on bioinformatics. The scope of this
 
 ## Files and structure
 <ul>
-<li> The repository is structured so that it can be installed as a package via pip install command; this holds for advanced (but still basic) tools and functions required to solve the latest exercises.
+<li> The repository is structured so that it can be installed as a package via pip install command; this holds for advanced (but still basic) tools and functions required to solve the latest exercises. Solution for first exercises may be written as "simple" functions.
 </ul>
 
 ## Exercises
