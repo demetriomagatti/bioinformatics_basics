@@ -9,8 +9,8 @@ Exercises from online tutorials and classes on bioinformatics. The scope of this
 ## Exercises 
 
 <ol>
-<li> <b>DNA alignement from scratch; source: An Introduction to Bioinformatics Algorithms, by Neil C. Jones and Pavel A. Pevzner; chapter 6, exercise .</b> <br>
-        Descripyion here
+<li> <b>DNA alignment from scratch; source: An Introduction to Bioinformatics Algorithms, by Neil C. Jones and Pavel A. Pevzner; chapter 6, exercise .</b> <br>
+        Description here
 </ol>
 If possible, the exercise solution (not alwasy provided by the source) will be compared with results obtained via pre-existing dedicated tools and libraries, such as bioPython.
 
