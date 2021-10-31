@@ -1,8 +1,6 @@
 import setuptools
 from setuptools.extension import Extension
 from Cython.Build import cythonize
-import numpy
-import matplotlib.pyplot
 
 with open("README.md", "r") as fh:
     long_description = fh.read()
