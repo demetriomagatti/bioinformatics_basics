@@ -10,6 +10,6 @@ Exercises from online tutorials and classes on bioinformatics. The scope of this
 
 <ol>
 <li> <b>Manhattan Tourist problem, form "An Introduction to Bioinformatics Algorithms" by Neil C. Jones and Pavel A. Pevzner, chapter 6, section 3.</b> <br>
-        notebook: ManhattanTourist. <br>
+        notebook: ManhattanTourist.ipynb. <br>
 </ol>
 If possible, the exercise solution (not alwasy provided by the source) will be compared with results obtained via pre-existing dedicated tools and libraries, such as bioPython.
