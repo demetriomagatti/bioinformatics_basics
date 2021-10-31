@@ -62,6 +62,7 @@ class ManhattanSolver():
             for ypos in np.unique(y):
                 ax.arrow(xpos+0.2,ypos,0.6,0,width=0.02,color='lightblue')
                 ax.text(xpos+0.5,ypos,str(np.transpose(self.MoveEast)[xpos,ypos]))
-        ax.plot(np.transpose(self.Path[list(self.Path.keys())[-1]])[0],
-                np.transpose(self.Path[list(self.Path.keys())[-1]])[1],'o',markersize=5,color='red')
+        if self.Path:
+            ax.plot(np.transpose(self.Path[list(self.Path.keys())[-1]])[0],
+                    np.transpose(self.Path[list(self.Path.keys())[-1]])[1],'o',markersize=5,color='red')
         return ax
