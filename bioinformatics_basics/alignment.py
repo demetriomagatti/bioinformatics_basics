@@ -39,10 +39,10 @@ class ManhattanSolver():
 
     
     def makePath(self):
-        for key in solver.Moves.keys():
+        for key in self.Moves.keys():
             path = [[0,0]]
-            for i in range(len(solver.Moves[key])):
-                path.append([solver.Moves[key][:i+1].count('East'),solver.Moves[key][:i+1].count('Nord')])
+            for i in range(len(self.Moves[key])):
+                path.append([self.Moves[key][:i+1].count('East'),self.Moves[key][:i+1].count('Nord')])
             self.Path[key] = path
     
     
