@@ -9,12 +9,7 @@ Exercises from online tutorials and classes on bioinformatics. The scope of this
 ## Exercises 
 
 <ol>
-<li> <b>DNA alignment from scratch; source: An Introduction to Bioinformatics Algorithms, by Neil C. Jones and Pavel A. Pevzner; chapter 6, exercise .</b> <br>
-        Description here
+<li> <b>Manhattan Tourist problem, form "An Introduction to Bioinformatics Algorithms" by Neil C. Jones and Pavel A. Pevzner, chapter 6, section 3.</b> <br>
+        notebook: ManhattanTourist. <br>
 </ol>
 If possible, the exercise solution (not alwasy provided by the source) will be compared with results obtained via pre-existing dedicated tools and libraries, such as bioPython.
-
-## Notes on the project and on the jupyter notebook
-<ul>
-<li> 
-</ul>
