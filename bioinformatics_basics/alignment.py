@@ -15,6 +15,7 @@ class ManhattanSolver():
         self.MoveNord = np.floor(self.MaxScore*np.random.rand(self.nrows-1,self.ncols))
         self.Score = np.zeros((self.nrows,self.ncols))
         self.Moves = {}
+        self.Path = {}
     
     
     def run(self):
@@ -35,12 +36,20 @@ class ManhattanSolver():
                     self.Moves[str(i) + ',' + str(j)] = self.Moves[str(i-1) + ',' + str(j)] + ['Nord']
                 else:
                     self.Moves[str(i) + ',' + str(j)] = self.Moves[str(i) + ',' + str(j-1)] + ['East']
+
+    
+    def makePath(self):
+        for key in solver.Moves.keys():
+            path = [[0,0]]
+            for i in range(len(solver.Moves[key])):
+                path.append([solver.Moves[key][:i+1].count('East'),solver.Moves[key][:i+1].count('Nord')])
+            self.Path[key] = path
     
     
     def visualize(self):
         fig,ax = plt.subplots()
         # Plain grid plot
-        x,y = np.meshgrid(np.arange(self.nrows),np.arange(self.ncols))
+        x,y = np.meshgrid(np.arange(self.ncols),np.arange(self.nrows))
         ax.plot(x,y,'o',markersize=5,color='black')
         ax.get_xaxis().set_visible(False)
         ax.get_yaxis().set_visible(False)
@@ -53,4 +62,6 @@ class ManhattanSolver():
             for ypos in np.unique(y):
                 ax.arrow(xpos+0.2,ypos,0.6,0,width=0.02,color='lightblue')
                 ax.text(xpos+0.5,ypos,str(np.transpose(self.MoveEast)[xpos,ypos]))
+        ax.plot(np.transpose(self.Path[list(self.Path.keys())[-1]])[0],
+                np.transpose(self.Path[list(self.Path.keys())[-1]])[1],'o',markersize=5,color='red')
         return ax
