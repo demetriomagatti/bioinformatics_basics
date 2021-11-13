@@ -9,7 +9,9 @@ Exercises from online tutorials and classes on bioinformatics. The scope of this
 ## Exercises 
 
 <ol>
-<li> <b>Manhattan Tourist problem, form "An Introduction to Bioinformatics Algorithms" by Neil C. Jones and Pavel A. Pevzner, chapter 6, section 3.</b> <br>
+<li> <b>Manhattan Tourist problem, from "An Introduction to Bioinformatics Algorithms" by Neil C. Jones and Pavel A. Pevzner, chapter 6, section 3.</b> <br>
         notebook: ManhattanTourist.ipynb. <br>
-</ol>
+<li> <b>Longest Common Subsequence, from "An Introduction to Bioinformatics Algorithms" by Neil C. Jones and Pavel A. Pevzner, chapter 6, section 3.</b> <br>
+        notebook: LongestCommonSubsequence.ipynb. <br>
+        </ol>
 If possible, the exercise solution (not alwasy provided by the source) will be compared with results obtained via pre-existing dedicated tools and libraries, such as bioPython.
